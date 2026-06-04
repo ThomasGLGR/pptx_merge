@@ -19,7 +19,7 @@ The script directly manipulates the **OOXML** format (a `.pptx` file is essentia
 ## Prerequisites
 
 * Python **3.8+**
-* [`lxml`](https://www.google.com/search?q=%5Bhttps://lxml.de/%5D(https://lxml.de/))
+* [`lxml`](https://lxml.de/)
 
 `python-pptx` is **not** required by the script; it is only used in tests to generate and verify files.
 
@@ -63,7 +63,7 @@ python pptx_merge.py A.pptx B.pptx -o fusion.pptx --slides-b 1,2,5-7 --insert-in
 ### Options
 
 | Option | Values | Default | Description |
-| --- | --- | --- | --- |
+|---------|---------|---------|-------------|
 | `-o`, `--output` | path to `.pptx` | `fusion.pptx` | Output file. |
 | `--target-size` | `first`, `second`, `largest`, `smallest` | `first` | Final slide size if A and B differ. `first` keeps A intact and scales B up/down. |
 | `--slides-a` | e.g., `1,3,5-8` | all | Slides from A to keep (1-indexed). |
