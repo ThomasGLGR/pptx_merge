@@ -20,9 +20,7 @@ The script directly manipulates the **OOXML** format (a `.pptx` file is essentia
 
 * Python **3.8+**
 * [`lxml`](https://lxml.de/)
-
-`python-pptx` is **not** required by the script; it is only used in tests to generate and verify files.
-
+  
 ---
 
 ## Installation
